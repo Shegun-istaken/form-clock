@@ -1,0 +1,67 @@
+#root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+div.bigDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10%;
+}
+div.divBox {
+  width: 35vw;
+  border: 0.1vw solid hsla(240, 100%, 50%, 0.5);
+  text-align: left;
+  padding: 4%;
+  font-family: "Space Mono", monospace;
+}
+
+.divBox h1 {
+  font-size: 1.5vw;
+}
+
+.divBox h2 {
+  font-size: 1.1vw;
+  color:blue;
+}
+
+.divBox h3{
+  color:hsla(240, 100%, 50%, 0.3);
+  font-size:0.9vw;
+}
+
+.divBox h4{
+  width:100%;
+  background-color:hsla(240, 100%, 50%, 0.3);
+  text-align:center;
+  font-weight:100;
+  padding: 2% 0;
+  border-radius: 0.3vw;
+}
+
+form div{
+  display:flex;
+  flex-direction: column;
+  row-gap:0.1vw;
+  padding:2% 0%;
+}
+
+form select{
+  margin:4% 0;
+}
+
+div input:hover, div input:focus, form select:hover, form select:focus{
+  outline: 0px;
+  border: 0.1vw solid blue;
+}
+
+.divBox button{
+  display:block;
+  margin-top:2%;
+  background-color:hsla(240, 100%, 50%, 0.2);
+}
