@@ -19,6 +19,7 @@ div.divBox {
   text-align: left;
   padding: 4%;
   font-family: "Space Mono", monospace;
+  margin-top: 10%;
 }
 
 .divBox h1 {
@@ -27,41 +28,44 @@ div.divBox {
 
 .divBox h2 {
   font-size: 1.1vw;
-  color:blue;
+  color: blue;
 }
 
-.divBox h3{
-  color:hsla(240, 100%, 50%, 0.3);
-  font-size:0.9vw;
+.divBox h3 {
+  color: hsla(240, 100%, 50%, 0.3);
+  font-size: 0.9vw;
 }
 
-.divBox h4{
-  width:100%;
-  background-color:hsla(240, 100%, 50%, 0.3);
-  text-align:center;
-  font-weight:100;
+.divBox h4 {
+  width: 100%;
+  background-color: hsla(240, 100%, 50%, 0.3);
+  text-align: center;
+  font-weight: 100;
   padding: 2% 0;
   border-radius: 0.3vw;
 }
 
-form div{
-  display:flex;
+form div {
+  display: flex;
   flex-direction: column;
-  row-gap:0.1vw;
-  padding:2% 0%;
+  row-gap: 0.1vw;
+  padding: 2% 0%;
 }
 
-form select{
-  margin:4% 0;
+form select {
+  margin: 4% 0;
 }
 
-div input:hover, div input:focus, form select:hover, form select:focus{
+div input:hover,
+div input:focus,
+form select:hover,
+form select:focus {
   outline: 0px;
   border: 0.1vw solid blue;
 }
 
-.divBox button{
-  display:block;
-  margin-top:2%;
-  background-color:hsla(240, 100%, 50%, 0.2);
+.divBox button {
+  display: block;
+  margin-top: 2%;
+  background-color: hsla(240, 100%, 50%, 0.2);
 }
